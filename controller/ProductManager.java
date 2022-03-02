@@ -104,4 +104,10 @@ public class ProductManager {
             System.out.println("Thông tin sản phẩm đã sửa: \n"+target);
         }
     }
+    public static void displayAll(){
+        for (Product p:listClient
+             ) {
+            System.out.println(p);
+        }
+    }
 }
